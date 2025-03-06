@@ -40,7 +40,6 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button0 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.output = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -176,18 +175,9 @@
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
-            this.label1.Location = new System.Drawing.Point(167, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(445, 45);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "103022300148 % 3 = 0";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // output
             // 
+            this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.output.Location = new System.Drawing.Point(235, 67);
             this.output.Multiline = true;
             this.output.Name = "output";
@@ -200,7 +190,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.output);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button0);
             this.Controls.Add(this.button10);
@@ -234,7 +223,6 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button0;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox output;
     }
 }
